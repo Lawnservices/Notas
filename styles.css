@@ -7,7 +7,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 margin-left:20px;
 }
 .container {
-    max-width: 600px;
+    max-width: 660px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -49,4 +49,9 @@ li {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+textarea  {
+    font-size: 18px;
+    color: #003346;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

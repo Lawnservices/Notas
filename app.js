@@ -54,6 +54,7 @@ window.onload = function () {
 
             var editButton = document.createElement("button");
             editButton.textContent = "Editar";
+             
             editButton.onclick = function () {
                 var updatedNote = prompt("Edita la nota:", noteContent);
                 if (updatedNote !== null && updatedNote.trim() !== "") {
